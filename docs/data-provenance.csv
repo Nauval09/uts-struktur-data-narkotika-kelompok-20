@@ -35,3 +35,21 @@ PUT-031,pasal_terbukti,"Pasal 114 ayat (1) UU RI No. 35 Tahun 2009 jo UU No. 1 T
 PUT-031,tuntutan_bulan,48,putusan_432_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
 PUT-031,vonis_bulan,42,putusan_432_pid.sus_2026_pn_mtr.pdf,21,Nauval,kendra,pending
 PUT-031,denda_rupiah,200000000,putusan_432_pid.sus_2026_pn_mtr.pdf,21,Nauval,kendra,pending
+PUT-032,jenis_narkotika,Metamfetamina / Sabu,putusan_431_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-032,berat_barang_bukti_gram,0.143,putusan_431_pid.sus_2026_pn_mtr.pdf,4,Nauval,kendra,pending
+PUT-032,pasal_terbukti,"Pasal 114 ayat (1) UU RI No. 35 Tahun 2009 jo UU No. 1 Tahun 2023 tentang KUHP jo Pasal II ayat (11) UU RI No. 1 Tahun 2026 tentang Penyesuaian Pidana (dakwaan Pertama)",putusan_431_pid.sus_2026_pn_mtr.pdf,25,Nauval,kendra,pending
+PUT-032,tuntutan_bulan,48,putusan_431_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-032,vonis_bulan,48,putusan_431_pid.sus_2026_pn_mtr.pdf,25,Nauval,kendra,pending
+PUT-032,denda_rupiah,200000000,putusan_431_pid.sus_2026_pn_mtr.pdf,25,Nauval,kendra,pending
+PUT-033,jenis_narkotika,Metamfetamina / Sabu,putusan_394_pid.sus_2026_pn_mtr.pdf,3,Nauval,kendra,pending
+PUT-033,berat_barang_bukti_gram,0.229,putusan_394_pid.sus_2026_pn_mtr.pdf,3,Nauval,kendra,pending
+PUT-033,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026 tentang Penyesuaian Pidana (dakwaan Pertama)",putusan_394_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-033,tuntutan_bulan,48,putusan_394_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-033,vonis_bulan,48,putusan_394_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-033,denda_rupiah,500000000,putusan_394_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-034,jenis_narkotika,Metamfetamina / Sabu,putusan_347_pid.sus_2026_pn_mtr.pdf,3,Nauval,kendra,pending
+PUT-034,berat_barang_bukti_gram,0.234,putusan_347_pid.sus_2026_pn_mtr.pdf,4,Nauval,kendra,pending
+PUT-034,pasal_terbukti,"Pasal 114 ayat (1) UU RI No. 35 Tahun 2009 jo UU No. 1 Tahun 2023 tentang KUHP jo UU No. 1 Tahun 2026 tentang Penyesuaian Pidana (dakwaan Kesatu)",putusan_347_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-034,tuntutan_bulan,48,putusan_347_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-034,vonis_bulan,48,putusan_347_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-034,denda_rupiah,200000000,putusan_347_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
