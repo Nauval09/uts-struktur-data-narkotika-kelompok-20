@@ -15,7 +15,7 @@ PUT-028,jenis_narkotika,Metamfetamina / Sabu,putusan_181_pid.sus_2026_pn_mtr.pdf
 PUT-028,berat_barang_bukti_gram,300,putusan_181_pid.sus_2026_pn_mtr.pdf,5,Nauval,kendra,pending
 PUT-028,pasal_terbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU RI No. 35 Tahun 2009 jo UU RI No. 1 Tahun 2026 (berdasarkan tuntutan; halaman amar putusan akhir terpotong di PDF)",putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
 PUT-028,tuntutan_bulan,72,putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
-PUT-028,vonis_bulan,,putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
+PUT-028,vonis_bulan,72,putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
 PUT-028,denda_rupiah,200000000,putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
 PUT-029,jenis_narkotika,Metamfetamina / Sabu,putusan_422_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
 PUT-029,berat_barang_bukti_gram,0.455,putusan_422_pid.sus_2026_pn_mtr.pdf,6,Nauval,kendra,pending
