@@ -87,19 +87,4 @@ PUT-011,pasalTerbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI
 PUT-011,tuntutanBulan,48,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,2,Nauval09,,pending
 PUT-011,vonisBulan,48,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,56,Nauval09,,pending
 PUT-011,dendaRupiah,200000000,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,56,Nauval09,,pending
-PUT-012,nomorPerkara,384/Pid.Sus/2026/PN Mtr,21,putusan_384_pid.sus_2026_pn_mtr_20261112174842.pdf,1,Nauval09,,pending
-PUT-012,tanggalPutusan,2026-09-01,21,putusan_384_pid.sus_2026_pn_mtr_20261112174842.pdf,40,Nauval09,,pending
-PUT-012,jenisNarkotika,"Metamfetamin / Sabu",21,putusan_384_pid.sus_2026_pn_mtr_20261112174842.pdf,8,Nauval09,,pending
-PUT-012,beratBarangBuktiGram,0.516,21,putusan_384_pid.sus_2026_pn_mtr_20261112174842.pdf,5,Nauval09,,pending
-PUT-012,pasalTerbukti,"Pasal 114 ayat (1) jo pasal 132 ayat (1) Undang-Undang RI Nomor 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) jo Pasal 82 Lampiran 3 Undang Undang RI Nomor 1 Tahun 2026 Tentang Penyesuaian Pidana",21,putusan_384_pid.sus_2026_pn_mtr_20261112174842.pdf,38,Nauval09,,pending
-PUT-012,tuntutanBulan,30,21,putusan_384_pid.sus_2026_pn_mtr_20261112174842.pdf,2,Nauval09,,pending
-PUT-012,vonisBulan,30,21,putusan_384_pid.sus_2026_pn_mtr_20261112174842.pdf,38,Nauval09,,pending
-PUT-012,dendaRupiah,200000000,21,putusan_384_pid.sus_2026_pn_mtr_20261112174842.pdf,38,Nauval09,,pending
-PUT-013,nomorPerkara,383/Pid.Sus/2026/PN Mtr,24.putusan_383_pid.sus_2026_pn_mtr_20261112174934.pdf,1,Nauval09,,pending
-PUT-013,tanggalPutusan,2026-09-02,24.putusan_383_pid.sus_2026_pn_mtr_20261112174934.pdf,36,Nauval09,,pending
-PUT-013,jenisNarkotika,"Metamfetamin / Sabu",24.putusan_383_pid.sus_2026_pn_mtr_20261112174934.pdf,7,Nauval09,,pending
-PUT-013,beratBarangBuktiGram,0.516,24.putusan_383_pid.sus_2026_pn_mtr_20261112174934.pdf,5,Nauval09,,pending
-PUT-013,pasalTerbukti,"Pasal 114 ayat (1) jo pasal 132 ayat (1) Undang-Undang RI Nomor 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) jo Pasal 82 Lampiran 3 Undang Undang RI Nomor 1 Tahun 2026 Tentang Penyesuaian Pidana",24.putusan_383_pid.sus_2026_pn_mtr_20261112174934.pdf,33,Nauval09,,pending
-PUT-013,tuntutanBulan,30,24.putusan_383_pid.sus_2026_pn_mtr_20261112174934.pdf,2,Nauval09,,pending
-PUT-013,vonisBulan,30,24.putusan_383_pid.sus_2026_pn_mtr_20261112174934.pdf,33,Nauval09,,pending
-PUT-013,dendaRupiah,200000000,24.putusan_383_pid.sus_2026_pn_mtr_20261112174934.pdf,33,Nauval09,,pending
+
