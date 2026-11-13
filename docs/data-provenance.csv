@@ -17,3 +17,21 @@ PUT-028,pasal_terbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU RI No. 35 Ta
 PUT-028,tuntutan_bulan,72,putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
 PUT-028,vonis_bulan,,putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
 PUT-028,denda_rupiah,200000000,putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-029,jenis_narkotika,Metamfetamina / Sabu,putusan_422_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-029,berat_barang_bukti_gram,0.455,putusan_422_pid.sus_2026_pn_mtr.pdf,6,Nauval,kendra,pending
+PUT-029,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo UU No. 1 Tahun 2026 tentang Penyesuaian Pidana (dakwaan Pertama)",putusan_422_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-029,tuntutan_bulan,60,putusan_422_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-029,vonis_bulan,60,putusan_422_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-029,denda_rupiah,200000000,putusan_422_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-030,jenis_narkotika,Metamfetamina / Sabu,putusan_385_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-030,berat_barang_bukti_gram,0.91,putusan_385_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-030,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo Pasal 13 KUHP jo UU No. 1 Tahun 2026 tentang Penyesuaian Pidana (dakwaan Alternatif Pertama)",putusan_385_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-030,tuntutan_bulan,48,putusan_385_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-030,vonis_bulan,48,putusan_385_pid.sus_2026_pn_mtr.pdf,26,Nauval,kendra,pending
+PUT-030,denda_rupiah,200000000,putusan_385_pid.sus_2026_pn_mtr.pdf,27,Nauval,kendra,pending
+PUT-031,jenis_narkotika,Metamfetamina / Sabu,putusan_432_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-031,berat_barang_bukti_gram,0.06,putusan_432_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-031,pasal_terbukti,"Pasal 114 ayat (1) UU RI No. 35 Tahun 2009 jo UU No. 1 Tahun 2023 tentang KUHP jo UU No. 1 Tahun 2026 tentang Penyesuaian Pidana (dakwaan Pertama)",putusan_432_pid.sus_2026_pn_mtr.pdf,21,Nauval,kendra,pending
+PUT-031,tuntutan_bulan,48,putusan_432_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-031,vonis_bulan,42,putusan_432_pid.sus_2026_pn_mtr.pdf,21,Nauval,kendra,pending
+PUT-031,denda_rupiah,200000000,putusan_432_pid.sus_2026_pn_mtr.pdf,21,Nauval,kendra,pending
