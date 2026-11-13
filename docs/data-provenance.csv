@@ -1,90 +1,89 @@
 case_id,field_name,value,source_file,source_page,extractor,reviewer,status
-PUT-001,nomorPerkara,469/Pid.Sus/2026/PN Mtr,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,1kendraicikiwir,,pending
-PUT-001,tanggalPutusan,2026-10-06,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,26,kendraicikiwir,,pending
-PUT-001,jenisNarkotika,"Metamfetamin / Sabu",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,15,kendraicikiwir,,pending
-PUT-001,beratBarangBuktiGram,0.079,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,4,kendraicikiwir,,pending
-PUT-001,pasalTerbukti,"Pasal 609 ayat (1) huruf a Undang-Undang Nomor 1 tahun 2023 tentang KUHP",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25kendraicikiwir,,pending
-PUT-001,tuntutanBulan,48,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,2,kendraicikiwir,,pending
-PUT-001,vonisBulan,42,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,kendraicikiwir,,pending
-PUT-001,dendaRupiah,200000000,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,kendraicikiwir,,pending
-PUT-002,nomorPerkara,445/Pid.Sus/2026/PN Mtr,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,1,Nkendraicikiwir,,pending
-PUT-002,tanggalPutusan,2026-09-29,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,19,kendraicikiwir,,pending
-PUT-002,jenisNarkotika,"Metamfetamin / Sabu",4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,4,kendraicikiwir,,pending
-PUT-002,beratBarangBuktiGram,0.102,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,4,kendraicikiwir,,pending
-PUT-002,pasalTerbukti,"Pasal 609 Ayat (1) huruf a Undang-Undang Nomor 1 Tahun 2023 tentang KUHP Jo Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,15,kendraicikiwir,,pending
-PUT-002,tuntutanBulan,48,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,2,kendraicikiwir,,pending
-PUT-002,vonisBulan,42,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,18kendraicikiwir,,pending
-PUT-002,dendaRupiah,200000000,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,18,kendraicikiwir,,pending
-PUT-003,nomorPerkara,77/Pid.Sus/2026/PN Mtr,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,1,kendraicikiwir,,pending
-PUT-003,tanggalPutusan,2026-04-14,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,37,kendraicikiwir,,pending
-PUT-003,jenisNarkotika,"Metamfetamin / Sabu",5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,7,kendraicikiwir,,pending
-PUT-003,beratBarangBuktiGram,0.52,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,3kendraicikiwir,,pending
-PUT-003,pasalTerbukti,"Pasal 610 Ayat (1) huruf a Jo Pasal 13 Ayat (1) KUHP jo Pasal II ayat (11) Undang-Undang RI Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,32,kendraicikiwir,,pending
-PUT-003,tuntutanBulan,72,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,2,kendraicikiwir,,pending
-PUT-003,vonisBulan,72,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,36,kendraicikiwir,,pending
-PUT-003,dendaRupiah,510000000,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,36,kendraicikiwir,,pending
-PUT-004,nomorPerkara,437/Pid.Sus/2026/PN Mtr,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,1,kendraicikiwir,,pending
-PUT-004,tanggalPutusan,2026-09-24,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,37,kendraicikiwir,,pending
-PUT-004,jenisNarkotika,"Metamfetamin / Sabu",7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,7kendraicikiwir,,pending
-PUT-004,beratBarangBuktiGram,8.50,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,3,kendraicikiwir,,pending
-PUT-004,pasalTerbukti,"Pasal 114 Ayat (2) Undang-Undang Republik Indonesia Nomor 35 Tahun 2009 tentang Narkotika Jo. Undang-Undang Republik Indonesia Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,33,kendraicikiwir,,pending
-PUT-004,tuntutanBulan,60,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,2,kendraicikiwir,,pending
-PUT-004,vonisBulan,60,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,36,kendraicikiwir,,pending
-PUT-004,dendaRupiah,500000000,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,36,kendraicikiwir,,pending
-PUT-005,nomorPerkara,446/Pid.Sus/2026/PN Mtr,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,1kendraicikiwir,,pending
-PUT-005,tanggalPutusan,2026-09-23,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,69,kendraicikiwir,,pending
-PUT-005,jenisNarkotika,"Metamfetamin / Sabu; Ganja",8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,3,kendraicikiwir,,pending
-PUT-005,beratBarangBuktiGram,0,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,68,kendraicikiwir,,pending
-PUT-005,pasalTerbukti,"Pasal 114 ayat (1) Jo Pasal 132 Ayat (1) Undang-Undang No.35 Tahun 2009 tentang Narkotika",8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,67kendraicikiwir,,pending
-PUT-005,tuntutanBulan,54,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,3,kendraicikiwir,,pending
-PUT-005,vonisBulan,36,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,68kendraicikiwir,,pending
-PUT-005,dendaRupiah,200000000,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,68,kendraicikiwir,,pending
-PUT-006,nomorPerkara,428/Pid.Sus/2026/PN Mtr,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,1,kendraicikiwir,,pending
-PUT-006,tanggalPutusan,2026-09-22,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,25,kendraicikiwir,,pending
-PUT-006,jenisNarkotika,"Metamfetamin / Sabu",16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,7,kendraicikiwir,,pending
-PUT-006,beratBarangBuktiGram,0.14,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,2,kendraicikiwir,,pending
-PUT-006,pasalTerbukti,"Pasal 114 ayat (1) Undang-Undang Nomor 35 Tahun 2009 tentang Narkotika Jo. Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,24,kendraicikiwir,,pending
-PUT-006,tuntutanBulan,60,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,2,kendraicikiwir,,pending
-PUT-006,vonisBulan,42,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,24,kendraicikiwir,,pending
-PUT-006,dendaRupiah,500000000,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,24,kendraicikiwir,,pending
-PUT-007,nomorPerkara,311/Pid.Sus/2026/PN Mtr,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,1,kendraicikiwir,,pending
-PUT-007,tanggalPutusan,2026-09-03,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,26,kendraicikiwir,,pending
-PUT-007,jenisNarkotika,"Metamfetamin / Sabu",18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,6,kendraicikiwir,,pending
-PUT-007,beratBarangBuktiGram,0.01,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,3,kendraicikiwir,,pending
-PUT-007,pasalTerbukti,"Pasal 114 ayat (1) UU No. 35 tahun 2009 tentang Narkotika Jo. UU No. 1 tahun 2023 tentang KUHP Jo. UU No. 1 tentang Penyesuaian Pidana",18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,21,kendraicikiwir,,pending
-PUT-007,tuntutanBulan,48,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,2,kendraicikiwir,,pending
-PUT-007,vonisBulan,48,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,24,kendraicikiwir,,pending
-PUT-007,dendaRupiah,200000000,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,24,kendraicikiwir,,pending
-PUT-008,nomorPerkara,377/Pid.Sus/2026/PN Mtr,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,1,kendraicikiwir,,pending
-PUT-008,tanggalPutusan,2026-09-02,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,31,kendraicikiwir,,pending
-PUT-008,jenisNarkotika,"Metamfetamin / Sabu",20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,6,kendraicikiwir,,pending
-PUT-008,beratBarangBuktiGram,2.81,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,3,kendraicikiwir,,pending
-PUT-008,pasalTerbukti,"Pasal 114 ayat (1) Jo Pasal 132 Ayat (1) Undang-Undang No.35 Tahun 2009 tentang Narkotika",20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,30,kendraicikiwir,,pending
-PUT-008,tuntutanBulan,54,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,2,kendraicikiwir,,pending
-PUT-008,vonisBulan,48,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,30,kendraicikiwir,,pending
-PUT-008,dendaRupiah,200000000,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,30,kendraicikiwir,,pending
-PUT-009,nomorPerkara,375/Pid.Sus/2026/PN Mtr,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,1,kendraicikiwir,,pending
-PUT-009,tanggalPutusan,2026-09-02,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,26,kendraicikiwir,,pending
-PUT-009,jenisNarkotika,"Metamfetamin / Sabu",22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,6,kendraicikiwir,,pending
-PUT-009,beratBarangBuktiGram,0.27,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,3,kendraicikiwir,,pending
-PUT-009,pasalTerbukti,"Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) Undang-Undang Nomor 35 Tahun 2009 Tentang Narkotika Jo. Undang-Undang Nomor 1 Tahun 2023 tentang KUHP Jo. Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,25,kendraicikiwir,,pending
-PUT-009,tuntutanBulan,48,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,2,kendraicikiwir,,pending
-PUT-009,vonisBulan,48,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,25,kendraicikiwir,,pending
-PUT-009,dendaRupiah,500000000,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,25,kendraicikiwir,,pending
-PUT-010,nomorPerkara,392/Pid.Sus/2026/PN Mtr,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,1,kendraicikiwir,,pending
-PUT-010,tanggalPutusan,2026-09-15,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,43,kendraicikiwir,,pending
-PUT-010,jenisNarkotika,"Metamfetamin / Sabu",17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,8,kendraicikiwir,,pending
-PUT-010,beratBarangBuktiGram,0.317,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,4,kendraicikiwir,,pending
-PUT-010,pasalTerbukti,"Pasal 114 ayat (1) Undang-Undang RI Nomor 35 tahun 2009 Tentang Narkotika Jo. Undang-Undang RI Nomor 1 tahun 2026 tentang Penyesuaian Pidana",17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,38,kendraicikiwir,,pending
-PUT-010,tuntutanBulan,60,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,2,kendraicikiwir,,pending
-PUT-010,vonisBulan,60,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,42,kendraicikiwir,,pending
-PUT-010,dendaRupiah,200000000,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,42,kendraicikiwir,,pending
-PUT-011,nomorPerkara,325/Pid.Sus/2026/PN Mtr,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,1,kendraicikiwir,,pending
-PUT-011,tanggalPutusan,2026-09-03,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,59,kendraicikiwir,,pending
-PUT-011,jenisNarkotika,"Metamfetamin / Sabu",19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,9,kendraicikiwir,,pending
-PUT-011,beratBarangBuktiGram,0.921,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,6,kendraicikiwir,,pending
-PUT-011,pasalTerbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI Nomor 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) jo Pasal 82 Lampiran 3 UU Nomor 1 Tahun 2026 Tentang Penyesuaian Pidana",19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,51,kendraicikiwir,,pending
-PUT-011,tuntutanBulan,48,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,2,kendraicikiwir,,pending
-PUT-011,vonisBulan,48,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,56,kendraicikiwir,,pending
-
+PUT-001,nomorPerkara,469/Pid.Sus/2026/PN Mtr,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,1,Nauval09,,pending
+PUT-001,tanggalPutusan,2026-10-06,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,26,Nauval09,,pending
+PUT-001,jenisNarkotika,"Metamfetamin / Sabu",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,15,Nauval09,,pending
+PUT-001,beratBarangBuktiGram,0.079,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,4,Nauval09,,pending
+PUT-001,pasalTerbukti,"Pasal 609 ayat (1) huruf a Undang-Undang Nomor 1 tahun 2023 tentang KUHP",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
+PUT-001,tuntutanBulan,48,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,2,Nauval09,,pending
+PUT-001,vonisBulan,42,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
+PUT-001,dendaRupiah,200000000,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
+PUT-002,nomorPerkara,445/Pid.Sus/2026/PN Mtr,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,1,Nauval09,,pending
+PUT-002,tanggalPutusan,2026-09-29,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,19,Nauval09,,pending
+PUT-002,jenisNarkotika,"Metamfetamin / Sabu",4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,4,Nauval09,,pending
+PUT-002,beratBarangBuktiGram,0.102,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,4,Nauval09,,pending
+PUT-002,pasalTerbukti,"Pasal 609 Ayat (1) huruf a Undang-Undang Nomor 1 Tahun 2023 tentang KUHP Jo Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,15,Nauval09,,pending
+PUT-002,tuntutanBulan,48,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,2,Nauval09,,pending
+PUT-002,vonisBulan,42,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,18,Nauval09,,pending
+PUT-002,dendaRupiah,200000000,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,18,Nauval09,,pending
+PUT-003,nomorPerkara,77/Pid.Sus/2026/PN Mtr,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,1,Nauval09,,pending
+PUT-003,tanggalPutusan,2026-04-14,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,37,Nauval09,,pending
+PUT-003,jenisNarkotika,"Metamfetamin / Sabu",5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,7,Nauval09,,pending
+PUT-003,beratBarangBuktiGram,0.52,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,3,Nauval09,,pending
+PUT-003,pasalTerbukti,"Pasal 610 Ayat (1) huruf a Jo Pasal 13 Ayat (1) KUHP jo Pasal II ayat (11) Undang-Undang RI Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,32,Nauval09,,pending
+PUT-003,tuntutanBulan,72,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,2,Nauval09,,pending
+PUT-003,vonisBulan,72,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,36,Nauval09,,pending
+PUT-003,dendaRupiah,510000000,5.putusan_77_pid.sus_2026_pn_mtr_20261112173827_3.pdf,36,Nauval09,,pending
+PUT-004,nomorPerkara,437/Pid.Sus/2026/PN Mtr,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,1,Nauval09,,pending
+PUT-004,tanggalPutusan,2026-09-24,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,37,Nauval09,,pending
+PUT-004,jenisNarkotika,"Metamfetamin / Sabu",7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,7,Nauval09,,pending
+PUT-004,beratBarangBuktiGram,8.50,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,3,Nauval09,,pending
+PUT-004,pasalTerbukti,"Pasal 114 Ayat (2) Undang-Undang Republik Indonesia Nomor 35 Tahun 2009 tentang Narkotika Jo. Undang-Undang Republik Indonesia Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,33,Nauval09,,pending
+PUT-004,tuntutanBulan,60,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,2,Nauval09,,pending
+PUT-004,vonisBulan,60,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,36,Nauval09,,pending
+PUT-004,dendaRupiah,500000000,7.putusan_437_pid.sus_2026_pn_mtr_20261112173949_2.pdf,36,Nauval09,,pending
+PUT-005,nomorPerkara,446/Pid.Sus/2026/PN Mtr,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,1,Nauval09,,pending
+PUT-005,tanggalPutusan,2026-09-23,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,69,Nauval09,,pending
+PUT-005,jenisNarkotika,"Metamfetamin / Sabu; Ganja",8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,3,Nauval09,,pending
+PUT-005,beratBarangBuktiGram,0,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,68,Nauval09,,pending
+PUT-005,pasalTerbukti,"Pasal 114 ayat (1) Jo Pasal 132 Ayat (1) Undang-Undang No.35 Tahun 2009 tentang Narkotika",8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,67,Nauval09,,pending
+PUT-005,tuntutanBulan,54,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,3,Nauval09,,pending
+PUT-005,vonisBulan,36,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,68,Nauval09,,pending
+PUT-005,dendaRupiah,200000000,8.putusan_446_pid.sus_2026_pn_mtr_20261112174015.pdf,68,Nauval09,,pending
+PUT-006,nomorPerkara,428/Pid.Sus/2026/PN Mtr,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,1,Nauval09,,pending
+PUT-006,tanggalPutusan,2026-09-22,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,25,Nauval09,,pending
+PUT-006,jenisNarkotika,"Metamfetamin / Sabu",16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,7,Nauval09,,pending
+PUT-006,beratBarangBuktiGram,0.14,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,2,Nauval09,,pending
+PUT-006,pasalTerbukti,"Pasal 114 ayat (1) Undang-Undang Nomor 35 Tahun 2009 tentang Narkotika Jo. Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,24,Nauval09,,pending
+PUT-006,tuntutanBulan,60,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,2,Nauval09,,pending
+PUT-006,vonisBulan,42,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,24,Nauval09,,pending
+PUT-006,dendaRupiah,500000000,16.putusan_428_pid.sus_2026_pn_mtr_20261112174508.pdf,24,Nauval09,,pending
+PUT-007,nomorPerkara,311/Pid.Sus/2026/PN Mtr,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,1,Nauval09,,pending
+PUT-007,tanggalPutusan,2026-09-03,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,26,Nauval09,,pending
+PUT-007,jenisNarkotika,"Metamfetamin / Sabu",18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,6,Nauval09,,pending
+PUT-007,beratBarangBuktiGram,0.01,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,3,Nauval09,,pending
+PUT-007,pasalTerbukti,"Pasal 114 ayat (1) UU No. 35 tahun 2009 tentang Narkotika Jo. UU No. 1 tahun 2023 tentang KUHP Jo. UU No. 1 tentang Penyesuaian Pidana",18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,21,Nauval09,,pending
+PUT-007,tuntutanBulan,48,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,2,Nauval09,,pending
+PUT-007,vonisBulan,48,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,24,Nauval09,,pending
+PUT-007,dendaRupiah,200000000,18.putusan_311_pid.sus_2026_pn_mtr_20261112174629.pdf,24,Nauval09,,pending
+PUT-008,nomorPerkara,377/Pid.Sus/2026/PN Mtr,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,1,Nauval09,,pending
+PUT-008,tanggalPutusan,2026-09-02,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,31,Nauval09,,pending
+PUT-008,jenisNarkotika,"Metamfetamin / Sabu",20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,6,Nauval09,,pending
+PUT-008,beratBarangBuktiGram,2.81,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,3,Nauval09,,pending
+PUT-008,pasalTerbukti,"Pasal 114 ayat (1) Jo Pasal 132 Ayat (1) Undang-Undang No.35 Tahun 2009 tentang Narkotika",20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,30,Nauval09,,pending
+PUT-008,tuntutanBulan,54,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,2,Nauval09,,pending
+PUT-008,vonisBulan,48,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,30,Nauval09,,pending
+PUT-008,dendaRupiah,200000000,20.putusan_377_pid.sus_2026_pn_mtr_20261112174710.pdf,30,Nauval09,,pending
+PUT-009,nomorPerkara,375/Pid.Sus/2026/PN Mtr,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,1,Nauval09,,pending
+PUT-009,tanggalPutusan,2026-09-02,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,26,Nauval09,,pending
+PUT-009,jenisNarkotika,"Metamfetamin / Sabu",22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,6,Nauval09,,pending
+PUT-009,beratBarangBuktiGram,0.27,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,3,Nauval09,,pending
+PUT-009,pasalTerbukti,"Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) Undang-Undang Nomor 35 Tahun 2009 Tentang Narkotika Jo. Undang-Undang Nomor 1 Tahun 2023 tentang KUHP Jo. Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,25,Nauval09,,pending
+PUT-009,tuntutanBulan,48,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,2,Nauval09,,pending
+PUT-009,vonisBulan,48,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,25,Nauval09,,pending
+PUT-009,dendaRupiah,500000000,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,25,Nauval09,,pending
+PUT-010,nomorPerkara,392/Pid.Sus/2026/PN Mtr,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,1,Nauval09,,pending
+PUT-010,tanggalPutusan,2026-09-15,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,43,Nauval09,,pending
+PUT-010,jenisNarkotika,"Metamfetamin / Sabu",17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,8,Nauval09,,pending
+PUT-010,beratBarangBuktiGram,0.317,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,4,Nauval09,,pending
+PUT-010,pasalTerbukti,"Pasal 114 ayat (1) Undang-Undang RI Nomor 35 tahun 2009 Tentang Narkotika Jo. Undang-Undang RI Nomor 1 tahun 2026 tentang Penyesuaian Pidana",17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,38,Nauval09,,pending
+PUT-010,tuntutanBulan,60,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,2,Nauval09,,pending
+PUT-010,vonisBulan,60,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,42,Nauval09,,pending
+PUT-010,dendaRupiah,200000000,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,42,Nauval09,,pending
+PUT-011,nomorPerkara,325/Pid.Sus/2026/PN Mtr,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,1,Nauval09,,pending
+PUT-011,tanggalPutusan,2026-09-03,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,59,Nauval09,,pending
+PUT-011,jenisNarkotika,"Metamfetamin / Sabu",19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,9,Nauval09,,pending
+PUT-011,beratBarangBuktiGram,0.921,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,6,Nauval09,,pending
+PUT-011,pasalTerbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI Nomor 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) jo Pasal 82 Lampiran 3 UU Nomor 1 Tahun 2026 Tentang Penyesuaian Pidana",19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,51,Nauval09,,pending
+PUT-011,tuntutanBulan,48,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,2,Nauval09,,pending
+PUT-011,vonisBulan,48,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,56,Nauval09,,pending
 
