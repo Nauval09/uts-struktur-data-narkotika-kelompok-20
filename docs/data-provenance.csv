@@ -119,7 +119,7 @@ PUT-020,tuntutan_bulan,60,putusan_338_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pe
 PUT-020,vonis_bulan,60,putusan_338_pid.sus_2026_pn_mtr.pdf,29,Nauval,Kendra,pending
 PUT-020,denda_rupiah,200000000,putusan_338_pid.sus_2026_pn_mtr.pdf,29,Nauval,Kendra,pending
 PUT-021,jenis_narkotika,"Metamfetamin / Sabu",putusan_246_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
-PUT-021,berat_barang_bukti_gram,0.204,putusan_338_pid.sus_2026_pn_mtr.pdf,19,Nauval,Kendra,pending
+PUT-021,berat_barang_bukti_gram,0.204,putusan_246_pid.sus_2026_pn_mtr.pdf,19,Nauval,Kendra,pending
 PUT-021,pasal_terbukti,"Pasal 114 ayat (1) Undang-Undang RI Nomor 35 Tahun 2009 tentang Narkotika jo Undang-Undang RI Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_246_pid.sus_2026_pn_mtr.pdf,29,Nauval,Kendra,pending
 PUT-021,tuntutan_bulan,48,putusan_246_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
 PUT-021,vonis_bulan,48,putusan_246_pid.sus_2026_pn_mtr.pdf,29,Nauval,Kendra,pending
