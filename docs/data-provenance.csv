@@ -1,12 +1,10 @@
 case_id,field_name,value,source_file,source_page,extractor,reviewer,status
-PUT-001,nomorPerkara,469/Pid.Sus/2026/PN Mtr,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,1,Nauval09,,pending
-PUT-001,tanggalPutusan,2026-10-06,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,26,Nauval09,,pending
-PUT-001,jenisNarkotika,"Metamfetamin / Sabu",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,15,Nauval09,,pending
-PUT-001,beratBarangBuktiGram,0.079,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,4,Nauval09,,pending
-PUT-001,pasalTerbukti,"Pasal 609 ayat (1) huruf a Undang-Undang Nomor 1 tahun 2023 tentang KUHP",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
-PUT-001,tuntutanBulan,48,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,2,Nauval09,,pending
-PUT-001,vonisBulan,42,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
-PUT-001,dendaRupiah,200000000,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
+PUT-001,jenis_narkotika,"Metamfetamin / Sabu",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,15,Nauval09,,pending
+PUT-001,berat_barang_bukti_gram,0.079,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,4,Nauval09,,pending
+PUT-001,pasal_terbukti,"Pasal 609 ayat (1) huruf a Undang-Undang Nomor 1 tahun 2023 tentang KUHP",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
+PUT-001,tuntutan_bulan,48,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,2,Nauval09,,pending
+PUT-001,vonis_bulan,42,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
+PUT-001,denda_rupiah,200000000,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
 PUT-002,nomorPerkara,445/Pid.Sus/2026/PN Mtr,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,1,Nauval09,,pending
 PUT-002,tanggalPutusan,2026-09-29,4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,19,Nauval09,,pending
 PUT-002,jenisNarkotika,"Metamfetamin / Sabu",4putusan_445_pid.sus_2026_pn_mtr_20261112173808_2.pdf,4,Nauval09,,pending
