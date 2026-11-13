@@ -83,7 +83,72 @@ PUT-014,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU RI Nomor 1 Tahun 2023 tent
 PUT-014,tuntutan_bulan,48,putusan_85_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
 PUT-014,vonis_bulan,36,putusan_85_pid.sus_2026_pn_mtr.pdf,24,Nauval,Kendra,pending
 PUT-014,denda_rupiah,200000000,putusan_85_pid.sus_2026_pn_mtr.pdf,24,Nauval,Kendra,pending
-=======
+PUT-015,jenis_narkotika,Metamfetamin / Sabu,putusan_423_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-015,berat_barang_bukti_gram,102.055,putusan_423_pid.sus_2026_pn_mtr.pdf,8,Nauval,Kendra,pending
+PUT-015,pasal_terbukti,"Pasal 114 ayat (2) Jo. Pasal 132 Ayat (1) UU No. 35 Tahun 2009 tentang Narkotika Jo. Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_423_pid.sus_2026_pn_mtr.pdf,37,Nauval,Kendra,pending
+PUT-015,tuntutan_bulan,96,putusan_423_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-015,vonis_bulan,84,putusan_423_pid.sus_2026_pn_mtr.pdf,37,Nauval,Kendra,pending
+PUT-015,denda_rupiah,200000000,putusan_423_pid.sus_2026_pn_mtr.pdf,37,Nauval,Kendra,pending
+PUT-016,jenis_narkotika,Metamfetamin / Sabu,putusan_443_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-016,berat_barang_bukti_gram,3.47,putusan_443_pid.sus_2026_pn_mtr.pdf,4,Nauval,Kendra,pending
+PUT-016,pasal_terbukti,"Pasal 114 ayat (1) Undang Undang RI Nomor 35 Tahun 2009 tentang Narkotika Jo Undang-Undang RI Nomor 1 Tahun 2023 tentang KUHP Jo UU RI No. 1 Tahun 2026 tentang penyesuaian pidana",putusan_443_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-016,tuntutan_bulan,60,putusan_443_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-016,vonis_bulan,60,putusan_443_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-016,denda_rupiah,200000000,putusan_443_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-017,jenis_narkotika,Metamfetamin / Sabu,putusan_442_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-017,berat_barang_bukti_gram,40.35,putusan_442_pid.sus_2026_pn_mtr.pdf,4,Nauval,Kendra,pending
+PUT-017,pasal_terbukti,"Pasal 114 Ayat (2) UU No 35 tahun 2009 tentang Narkotika Jo. Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_442_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-017,tuntutan_bulan,72,putusan_442_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-017,vonis_bulan,60,putusan_442_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-017,denda_rupiah,1000000000,putusan_442_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-018,jenis_narkotika,Metamfetamin / Sabu,putusan_356_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-018,berat_barang_bukti_gram,1.016,putusan_356_pid.sus_2026_pn_mtr.pdf,5,Nauval,Kendra,pending
+PUT-018,pasal_terbukti,"Pasal 114 ayat (1) Jo. Pasal 132 Undang-Undang Nomor 35 Tahun 2009 tentang Narkotika Jo. Undang-Undang No. 1 tahun 2026 tentang Penyesuaian Pidana",putusan_356_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-018,tuntutan_bulan,48,putusan_356_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-018,vonis_bulan,48,putusan_356_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-018,denda_rupiah,200000000,putusan_356_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-019,jenis_narkotika,Metamfetamin / Sabu,putusan_324_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-019,berat_barang_bukti_gram,3.182,putusan_324_pid.sus_2026_pn_mtr.pdf,4,Nauval,Kendra,pending
+PUT-019,pasal_terbukti,"Pasal 114 ayat (1) Undang-Undang RI Nomor 35 Tahun 2009 tentang Narkotika Jo Pasal II Ayat (11) Jo Pasal 82 Lampiran 3 UU No.1 Tahun 2026 Tentang Penyesuaian Pidana",putusan_324_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-019,tuntutan_bulan,72,putusan_324_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-019,vonis_bulan,60,putusan_324_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-019,denda_rupiah,250000000,putusan_324_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-020,jenis_narkotika,Metamfetamin / Sabu,putusan_430_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-020,berat_barang_bukti_gram,0.06,putusan_430_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-020,pasal_terbukti,"Pasal 609 ayat (1) huruf a UU RI No. 1 tahun 2023 tentang KUHP",putusan_430_pid.sus_2026_pn_mtr.pdf,21,Nauval,Kendra,pending
+PUT-020,tuntutan_bulan,60,putusan_430_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-020,vonis_bulan,48,putusan_430_pid.sus_2026_pn_mtr.pdf,21,Nauval,Kendra,pending
+PUT-020,denda_rupiah,200000000,putusan_430_pid.sus_2026_pn_mtr.pdf,21,Nauval,Kendra,pending
+PUT-021,jenis_narkotika,Metamfetamin / Sabu,putusan_424_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-021,berat_barang_bukti_gram,79.321,putusan_424_pid.sus_2026_pn_mtr.pdf,5,Nauval,Kendra,pending
+PUT-021,pasal_terbukti,"Pasal 114 ayat (2) Undang-Undang RI Nomor 35 Tahun 2009 tentang Narkotika",putusan_424_pid.sus_2026_pn_mtr.pdf,27,Nauval,Kendra,pending
+PUT-021,tuntutan_bulan,78,putusan_424_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-021,vonis_bulan,72,putusan_424_pid.sus_2026_pn_mtr.pdf,27,Nauval,Kendra,pending
+PUT-021,denda_rupiah,1000000000,putusan_424_pid.sus_2026_pn_mtr.pdf,27,Nauval,Kendra,pending
+PUT-022,jenis_narkotika,Metamfetamin / Sabu,putusan_311_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-022,berat_barang_bukti_gram,0.01,putusan_311_pid.sus_2026_pn_mtr.pdf,4,Nauval,Kendra,pending
+PUT-022,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 tahun 2009 tentang Narkotika Jo. UU No. 1 tahun 2023 tentang KUHP Jo. UU No. 1 tentang Penyesuaian Pidana",putusan_311_pid.sus_2026_pn_mtr.pdf,26,Nauval,Kendra,pending
+PUT-022,tuntutan_bulan,48,putusan_311_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-022,vonis_bulan,48,putusan_311_pid.sus_2026_pn_mtr.pdf,26,Nauval,Kendra,pending
+PUT-022,denda_rupiah,200000000,putusan_311_pid.sus_2026_pn_mtr.pdf,26,Nauval,Kendra,pending
+PUT-023,jenis_narkotika,Metamfetamin / Sabu,putusan_377_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-023,berat_barang_bukti_gram,2.81,putusan_377_pid.sus_2026_pn_mtr.pdf,6,Nauval,Kendra,pending
+PUT-023,pasal_terbukti,"Pasal 114 ayat (1) Jo Pasal 132 Ayat (1) Undang-Undang No.35 Tahun 2009 tentang Narkotika",putusan_377_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-023,tuntutan_bulan,48,putusan_377_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-023,vonis_bulan,48,putusan_377_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-023,denda_rupiah,200000000,putusan_377_pid.sus_2026_pn_mtr.pdf,31,Nauval,Kendra,pending
+PUT-024,jenis_narkotika,Metamfetamin / Sabu,putusan_375_pid.sus_2026_pn_mtr.pdf,3,Nauval,Kendra,pending
+PUT-024,berat_barang_bukti_gram,0.27,putusan_375_pid.sus_2026_pn_mtr.pdf,5,Nauval,Kendra,pending
+PUT-024,pasal_terbukti,"Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) Undang-Undang Nomor 35 Tahun 2009 Tentang Narkotika Jo. Undang-Undang Nomor 1 Tahun 2023 tentang KUHP Jo. Undang-Undang Nomor 1 Tahun 2026 tentang Penyesuaian Pidana",putusan_375_pid.sus_2026_pn_mtr.pdf,26,Nauval,Kendra,pending
+PUT-024,tuntutan_bulan,48,putusan_375_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-024,vonis_bulan,48,putusan_375_pid.sus_2026_pn_mtr.pdf,26,Nauval,Kendra,pending
+PUT-024,denda_rupiah,500000000,putusan_375_pid.sus_2026_pn_mtr.pdf,26,Nauval,Kendra,pending
+PUT-025,jenis_narkotika,"Metamfetamin / Sabu; Ganja",putusan_446_pid.sus_2026_pn_mtr.pdf,5,Nauval,Kendra,pending
+PUT-025,berat_barang_bukti_gram,2.638,putusan_446_pid.sus_2026_pn_mtr.pdf,5,Nauval,Kendra,pending
+PUT-025,pasal_terbukti,"Pasal 114 ayat (1) UU. No. 35 tahun 2009 tentang Narkotika. Jo pasal 132 Ayat (1) UU. No. 35 tahun 2009 tentang Narkotika Jo UU No 1 Tahun 2023 tentang KUHP Jo UU No.1 Tahun 2026 Tentang Penyesuaian Pidana",putusan_446_pid.sus_2026_pn_mtr.pdf,69,Nauval,Kendra,pending
+PUT-025,tuntutan_bulan,36,putusan_446_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
+PUT-025,vonis_bulan,36,putusan_446_pid.sus_2026_pn_mtr.pdf,69,Nauval,Kendra,pending
+PUT-025,denda_rupiah,200000000,putusan_446_pid.sus_2026_pn_mtr.pdf,69,Nauval,Kendra,pending
 PUT-026,jenis_narkotika,Metamfetamina / Sabu,putusan_180_pid.sus_2026_pn_mtr.pdf,2,Kendra,Nauval,pending
 PUT-026,berat_barang_bukti_gram,3.215,putusan_180_pid.sus_2026_pn_mtr.pdf,3,Kendra,Nauval,pending
 PUT-026,pasal_terbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo Pasal II ayat 11 Lampiran II jo Pasal 82 ayat 3 Lampiran III UU No. 1 Tahun 2026 jo Pasal 13 ayat (1) KUHP (dakwaan Kesatu Primair; permufakatan jahat)",putusan_180_pid.sus_2026_pn_mtr.pdf,76,Kendra,Nauval,pending
@@ -234,4 +299,4 @@ PUT-050,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotik
 PUT-050,tuntutan_bulan,66,"50.putusan_295_pid.sus_2026_pn_mtr_20261112180615_3.pdf",2,Kendra,Nauval,pending
 PUT-050,vonis_bulan,60,"50.putusan_295_pid.sus_2026_pn_mtr_20261112180615_3.pdf",28,Kendra,Nauval,pending
 PUT-050,denda_rupiah,200000000,"50.putusan_295_pid.sus_2026_pn_mtr_20261112180615_3.pdf",28,Kendra,Nauval,pending
->>>>>>> f463fd1f900c473c6abedb5c982822a4096b83ce
+
