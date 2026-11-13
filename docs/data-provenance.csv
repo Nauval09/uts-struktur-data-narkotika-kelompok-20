@@ -1,19 +1,19 @@
 case_id,field_name,value,source_file,source_page,extractor,reviewer,status
-PUT-026,jenis_narkotika,Metamfetamina / Sabu,putusan_180_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-026,berat_barang_bukti_gram,3.215,putusan_180_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-026,pasal_terbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo Pasal II ayat 11 Lampiran II jo Pasal 82 ayat 3 Lampiran III UU No. 1 Tahun 2026 jo Pasal 13 ayat (1) KUHP (dakwaan Kesatu Primair; permufakatan jahat)",putusan_180_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-026,tuntutan_bulan,60,putusan_180_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-026,vonis_bulan,60,putusan_180_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-026,denda_rupiah,200000000,putusan_180_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-027,jenis_narkotika,Metamfetamina / Sabu,putusan_297_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-027,berat_barang_bukti_gram,37.932,putusan_297_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-027,pasal_terbukti,"Pasal 114 ayat (2) UU RI No. 35 Tahun 2009 jo Pasal II angka 11 Lampiran II jo Pasal 82 angka 3 Lampiran III UU RI No. 1 Tahun 2026 (dakwaan alternatif kesatu)",putusan_297_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-027,tuntutan_bulan,96,putusan_297_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-027,vonis_bulan,96,putusan_297_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-027,denda_rupiah,200000000,putusan_297_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-028,jenis_narkotika,Metamfetamina / Sabu,putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-028,berat_barang_bukti_gram,300,putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-028,pasal_terbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU RI No. 35 Tahun 2009 jo UU RI No. 1 Tahun 2026 (berdasarkan tuntutan; halaman amar putusan akhir terpotong di PDF)",putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-028,tuntutan_bulan,72,putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
+PUT-026,jenis_narkotika,Metamfetamina / Sabu,putusan_180_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-026,berat_barang_bukti_gram,3.215,putusan_180_pid.sus_2026_pn_mtr.pdf,3,Nauval,kendra,pending
+PUT-026,pasal_terbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo Pasal II ayat 11 Lampiran II jo Pasal 82 ayat 3 Lampiran III UU No. 1 Tahun 2026 jo Pasal 13 ayat (1) KUHP (dakwaan Kesatu Primair; permufakatan jahat)",putusan_180_pid.sus_2026_pn_mtr.pdf,76,Nauval,kendra,pending
+PUT-026,tuntutan_bulan,60,putusan_180_pid.sus_2026_pn_mtr.pdf,14,Nauval,kendra,pending
+PUT-026,vonis_bulan,60,putusan_180_pid.sus_2026_pn_mtr.pdf,76,Nauval,kendra,pending
+PUT-026,denda_rupiah,200000000,putusan_180_pid.sus_2026_pn_mtr.pdf,76,Nauval,kendra,pending
+PUT-027,jenis_narkotika,Metamfetamina / Sabu,putusan_297_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-027,berat_barang_bukti_gram,37.932,putusan_297_pid.sus_2026_pn_mtr.pdf,3,Nauval,kendra,pending
+PUT-027,pasal_terbukti,"Pasal 114 ayat (2) UU RI No. 35 Tahun 2009 jo Pasal II angka 11 Lampiran II jo Pasal 82 angka 3 Lampiran III UU RI No. 1 Tahun 2026 (dakwaan alternatif kesatu)",putusan_297_pid.sus_2026_pn_mtr.pdf,18,Nauval,kendra,pending
+PUT-027,tuntutan_bulan,96,putusan_297_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-027,vonis_bulan,96,putusan_297_pid.sus_2026_pn_mtr.pdf,18,Nauval,kendra,pending
+PUT-027,denda_rupiah,200000000,putusan_297_pid.sus_2026_pn_mtr.pdf,19,Nauval,kendra,pending
+PUT-028,jenis_narkotika,Metamfetamina / Sabu,putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-028,berat_barang_bukti_gram,300,putusan_181_pid.sus_2026_pn_mtr.pdf,5,Nauval,kendra,pending
+PUT-028,pasal_terbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU RI No. 35 Tahun 2009 jo UU RI No. 1 Tahun 2026 (berdasarkan tuntutan; halaman amar putusan akhir terpotong di PDF)",putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
+PUT-028,tuntutan_bulan,72,putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
 PUT-028,vonis_bulan,,putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
-PUT-028,denda_rupiah,200000000,putusan_181_pid.sus_2026_pn_mtr.pdf,,Nauval,kendra,pending
+PUT-028,denda_rupiah,200000000,putusan_181_pid.sus_2026_pn_mtr.pdf,2,Nauval,kendra,pending
