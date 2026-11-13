@@ -1,7 +1,7 @@
 case_id,field_name,value,source_file,source_page,extractor,reviewer,status
 PUT-001,jenis_narkotika,"Metamfetamin / Sabu",,,Nauval09,kendraicikiwir,pending
 PUT-001,berat_barang_bukti_gram,0.425,,,Nauval09,kendraicikiwir,pending
-PUT-001,pasal_terbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI No. 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) Lampiran II dan Pasal 82 ayat (3) Lampiran III Undang-Undang No.1 Tahun 2026 Tentang Penyesuaian Pidana",,,kendraicikiwir,,pending
+PUT-001,pasal_terbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI No. 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) Lampiran II dan Pasal 82 ayat (3) Lampiran III Undang-Undang No.1 Tahun 2026 Tentang Penyesuaian Pidana",,,Nauval09,kendraicikiwir,pending
 PUT-001,tuntutan_bulan,30,,,Nauval09,kendraicikiwir,pending
 PUT-001,vonis_bulan,30,,,Nauval09,kendraicikiwir,pending
 PUT-001,denda_rupiah,200000000,,,Nauval09,kendraicikiwir,pending
