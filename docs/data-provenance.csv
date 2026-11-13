@@ -1,5 +1,4 @@
 case_id,field_name,value,source_file,source_page,extractor,reviewer,status
-case_id,field_name,value,source_file,source_page,extractor,reviewer,status
 PUT-025,jenis_narkotika,Metamfetamina / Sabu,putusan_370_pid.sus_2026_pn_mtr.pdf,41,NAMA_KAMU,NAMA_TEMAN,pending
 PUT-025,berat_barang_bukti_gram,3.227,putusan_370_pid.sus_2026_pn_mtr.pdf,6,NAMA_KAMU,NAMA_TEMAN,pending
 PUT-025,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo Pasal II ayat 11 Lampiran II jo Pasal 82 Lampiran III UU No. 1 Tahun 2026 (dakwaan alternatif Kesatu)",putusan_370_pid.sus_2026_pn_mtr.pdf,47,NAMA_KAMU,NAMA_TEMAN,pending
