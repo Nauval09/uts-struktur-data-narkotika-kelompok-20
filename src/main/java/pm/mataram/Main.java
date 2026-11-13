@@ -87,11 +87,77 @@ public class Main {
                     case 3:
                         System.out.println("\n--- [FITUR FILTER] ---");
                         System.out.println("1. Berdasarkan Jenis Narkotika");
-                        System.out.println("2. Berdasarkan Rentang Vonis");
-                        System.out.print("Pilih sub-menu filter (1-2): ");
+                        System.out.println("2. Berdasarkan Rentang Berat Barang Bukti (gram)");
+                        System.out.println("3. Berdasarkan Pasal Terbukti");
+                        System.out.println("4. Berdasarkan Rentang Vonis (bulan)");
+                        System.out.print("Pilih sub-menu filter (1-4): ");
                         int subFilter = scanner.nextInt();
-                        scanner.nextLine();
+                        scanner.nextLine(); // Bersihkan newline
+
+                        if (subFilter == 1) {
+                            System.out.print("Masukkan jenis narkotika (cth: Sabu): ");
+                            String cari = scanner.nextLine().toLowerCase();
+                            int count = 0;
+                            for (int i = 0; i < dataset.size(); i++) {
+                                Putusan p = dataset.get(i);
+                                if (p.getJenisNarkotika().toLowerCase().contains(cari)) {
+                                    count++;
+                                    System.out.println(count + ". [" + p.getCaseId() + "] " + p.getNomorPerkara() + " | " + p.getJenisNarkotika() + " | BB: " + p.getBeratBarangBuktiGram() + " gr");
+                                }
+                            }
+                            System.out.println("Total ditemukan: " + count);
+
+                        } else if (subFilter == 2) {
+                            System.out.print("Masukkan berat minimum (gram): ");
+                            double min = scanner.nextDouble();
+                            System.out.print("Masukkan berat maksimum (gram): ");
+                            double max = scanner.nextDouble();
+                            scanner.nextLine();
+                            
+                            int count = 0;
+                            for (int i = 0; i < dataset.size(); i++) {
+                                Putusan p = dataset.get(i);
+                                if (p.getBeratBarangBuktiGram() >= min && p.getBeratBarangBuktiGram() <= max) {
+                                    count++;
+                                    System.out.println(count + ". [" + p.getCaseId() + "] " + p.getNomorPerkara() + " | BB: " + p.getBeratBarangBuktiGram() + " gr");
+                                }
+                            }
+                            System.out.println("Total ditemukan: " + count);
+
+                        } else if (subFilter == 3) {
+                            System.out.print("Masukkan pasal terbukti (cth: Pasal 114): ");
+                            String cariPasal = scanner.nextLine().toLowerCase();
+                            int count = 0;
+                            for (int i = 0; i < dataset.size(); i++) {
+                                Putusan p = dataset.get(i);
+                                if (p.getPasalTerbukti().toLowerCase().contains(cariPasal)) {
+                                    count++;
+                                    System.out.println(count + ". [" + p.getCaseId() + "] " + p.getNomorPerkara() + " | Pasal: " + p.getPasalTerbukti());
+                                }
+                            }
+                            System.out.println("Total ditemukan: " + count);
+
+                        } else if (subFilter == 4) {
+                            System.out.print("Masukkan vonis minimum (bulan): ");
+                            int minVonis = scanner.nextInt();
+                            System.out.print("Masukkan vonis maksimum (bulan): ");
+                            int maxVonis = scanner.nextInt();
+                            scanner.nextLine();
+                            
+                            int count = 0;
+                            for (int i = 0; i < dataset.size(); i++) {
+                                Putusan p = dataset.get(i);
+                                if (p.getVonisBulan() >= minVonis && p.getVonisBulan() <= maxVonis) {
+                                    count++;
+                                    System.out.println(count + ". [" + p.getCaseId() + "] " + p.getNomorPerkara() + " | Vonis: " + p.getVonisBulan() + " bln");
+                                }
+                            }
+                            System.out.println("Total ditemukan: " + count);
+                        } else {
+                            System.out.println("Pilihan sub-menu tidak valid.");
+                        }
                         break;
+
                         
                     case 4:
                         System.out.println("\n--- [FITUR AGREGASI] STATISTIK PUTUSAN ---");

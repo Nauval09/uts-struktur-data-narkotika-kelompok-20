@@ -11,6 +11,12 @@ public class PutusanService {
     private DynamicArray<Putusan> daftarPutusan = new DynamicArray<>();
     private CustomStack<String> riwayatAudit = new CustomStack<>(50);
 
+public static DynamicArray<Putusan> loadData(String filePath) {
+    PutusanService ps = new PutusanService();
+    ps.imporCsv(filePath);
+    return ps.getDaftarPutusan();
+}
+
     public void imporCsv(String filePath) {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line = br.readLine(); // Lewati header
