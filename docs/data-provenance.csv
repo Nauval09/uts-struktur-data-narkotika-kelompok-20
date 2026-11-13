@@ -1,10 +1,10 @@
 case_id,field_name,value,source_file,source_page,extractor,reviewer,status
-PUT-001,jenis_narkotika,"Metamfetamin / Sabu",,,Nauval09,kendraicikiwir,pending
-PUT-001,berat_barang_bukti_gram,0.425,,,Nauval09,kendraicikiwir,pending
-PUT-001,pasal_terbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI No. 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) Lampiran II dan Pasal 82 ayat (3) Lampiran III Undang-Undang No.1 Tahun 2026 Tentang Penyesuaian Pidana",,,Nauval09,kendraicikiwir,pending
-PUT-001,tuntutan_bulan,30,,,Nauval09,kendraicikiwir,pending
-PUT-001,vonis_bulan,30,,,Nauval09,kendraicikiwir,pending
-PUT-001,denda_rupiah,200000000,,,Nauval09,kendraicikiwir,pending
+PUT-001,jenis_narkotika,"Metamfetamin / Sabu",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312,,Nauval09,kendraicikiwir,pending
+PUT-001,berat_barang_bukti_gram,0.425,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312,,Nauval09,kendraicikiwir,pending
+PUT-001,pasal_terbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI No. 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) Lampiran II dan Pasal 82 ayat (3) Lampiran III Undang-Undang No.1 Tahun 2026 Tentang Penyesuaian Pidana",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312,,Nauval09,kendraicikiwir,pending
+PUT-001,tuntutan_bulan,30,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312,,Nauval09,kendraicikiwir,pending
+PUT-001,vonis_bulan,30,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312,,Nauval09,kendraicikiwir,pending
+PUT-001,denda_rupiah,200000000,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312,,Nauval09,kendraicikiwir,pending
 PUT-002,jenis_narkotika,"Metamfetamin / Sabu",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,15,Nauval09,,pending
 PUT-002,berat_barang_bukti_gram,0.079,01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,4,Nauval09,,pending
 PUT-002,pasal_terbukti,"Pasal 609 ayat (1) huruf a Undang-Undang Nomor 1 tahun 2023 tentang KUHP Jo pasal VII angka 50 Undang-Undang Nomor 1 tahun 2026 Tentang Penyesuaian Pidana",01.putusan_469_pid.sus_2026_pn_mtr_20261112173312_3.pdf,25,Nauval09,,pending
