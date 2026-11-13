@@ -71,3 +71,19 @@ PUT-009,pasalTerbukti,"Pasal 114 Ayat (1) Jo. Pasal 132 Ayat (1) Undang-Undang N
 PUT-009,tuntutanBulan,48,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,2,Nauval09,,pending
 PUT-009,vonisBulan,48,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,25,Nauval09,,pending
 PUT-009,dendaRupiah,500000000,22.putusan_375_pid.sus_2026_pn_mtr_20261112174855.pdf,25,Nauval09,,pending
+PUT-010,nomorPerkara,392/Pid.Sus/2026/PN Mtr,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,1,Nauval09,,pending
+PUT-010,tanggalPutusan,2026-09-15,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,43,Nauval09,,pending
+PUT-010,jenisNarkotika,"Metamfetamin / Sabu",17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,8,Nauval09,,pending
+PUT-010,beratBarangBuktiGram,0.317,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,4,Nauval09,,pending
+PUT-010,pasalTerbukti,"Pasal 114 ayat (1) Undang-Undang RI Nomor 35 tahun 2009 Tentang Narkotika Jo. Undang-Undang RI Nomor 1 tahun 2026 tentang Penyesuaian Pidana",17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,38,Nauval09,,pending
+PUT-010,tuntutanBulan,60,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,2,Nauval09,,pending
+PUT-010,vonisBulan,60,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,42,Nauval09,,pending
+PUT-010,dendaRupiah,200000000,17.putusan_392_pid.sus_2026_pn_mtr_20261112174539.pdf,42,Nauval09,,pending
+PUT-011,nomorPerkara,325/Pid.Sus/2026/PN Mtr,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,1,Nauval09,,pending
+PUT-011,tanggalPutusan,2026-09-03,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,59,Nauval09,,pending
+PUT-011,jenisNarkotika,"Metamfetamin / Sabu",19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,9,Nauval09,,pending
+PUT-011,beratBarangBuktiGram,0.921,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,6,Nauval09,,pending
+PUT-011,pasalTerbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI Nomor 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) jo Pasal 82 Lampiran 3 UU Nomor 1 Tahun 2026 Tentang Penyesuaian Pidana",19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,51,Nauval09,,pending
+PUT-011,tuntutanBulan,48,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,2,Nauval09,,pending
+PUT-011,vonisBulan,48,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,56,Nauval09,,pending
+PUT-011,dendaRupiah,200000000,19.putusan_325_pid.sus_2026_pn_mtr_20261112174646.pdf,56,Nauval09,,pending
