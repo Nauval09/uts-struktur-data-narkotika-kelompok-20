@@ -1,5 +1,4 @@
 case_id,field_name,value,source_file,source_page,extractor,reviewer,status
-<<<<<<< HEAD
 PUT-001,jenis_narkotika,"Metamfetamin / Sabu",putusan_406_pid.sus_2026_pn_mtr.pdf,2,Nauval,Kendra,pending
 PUT-001,berat_barang_bukti_gram,0.425,putusan_406_pid.sus_2026_pn_mtr.pdf,4,Nauval,Kendra,pending
 PUT-001,pasal_terbukti,"Pasal 114 ayat (1) jo Pasal 132 ayat (1) Undang-Undang RI No. 35 Tahun 2009 tentang Narkotika jo Pasal II ayat (11) Lampiran II dan Pasal 82 ayat (3) Lampiran III Undang-Undang No.1 Tahun 2026 Tentang Penyesuaian Pidana",putusan_406_pid.sus_2026_pn_mtr.pdf,36,Nauval,Kendra,pending
