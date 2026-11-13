@@ -1,10 +1,4 @@
 case_id,field_name,value,source_file,source_page,extractor,reviewer,status
-PUT-025,jenis_narkotika,Metamfetamina / Sabu,putusan_370_pid.sus_2026_pn_mtr.pdf,41,NAMA_KAMU,NAMA_TEMAN,pending
-PUT-025,berat_barang_bukti_gram,3.227,putusan_370_pid.sus_2026_pn_mtr.pdf,6,NAMA_KAMU,NAMA_TEMAN,pending
-PUT-025,pasal_terbukti,"Pasal 114 ayat (1) UU No. 35 Tahun 2009 jo Pasal II ayat 11 Lampiran II jo Pasal 82 Lampiran III UU No. 1 Tahun 2026 (dakwaan alternatif Kesatu)",putusan_370_pid.sus_2026_pn_mtr.pdf,47,NAMA_KAMU,NAMA_TEMAN,pending
-PUT-025,tuntutan_bulan,60,putusan_370_pid.sus_2026_pn_mtr.pdf,3,NAMA_KAMU,NAMA_TEMAN,pending
-PUT-025,vonis_bulan,54,putusan_370_pid.sus_2026_pn_mtr.pdf,52,NAMA_KAMU,NAMA_TEMAN,pending
-PUT-025,denda_rupiah,200000000,putusan_370_pid.sus_2026_pn_mtr.pdf,52,NAMA_KAMU,NAMA_TEMAN,pending
 PUT-026,jenis_narkotika,Metamfetamina / Sabu,putusan_180_pid.sus_2026_pn_mtr.pdf,,NAMA_KAMU,NAMA_TEMAN,pending
 PUT-026,berat_barang_bukti_gram,3.215,putusan_180_pid.sus_2026_pn_mtr.pdf,,NAMA_KAMU,NAMA_TEMAN,pending
 PUT-026,pasal_terbukti,"Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35 Tahun 2009 jo Pasal II ayat 11 Lampiran II jo Pasal 82 ayat 3 Lampiran III UU No. 1 Tahun 2026 jo Pasal 13 ayat (1) KUHP (dakwaan Kesatu Primair; permufakatan jahat)",putusan_180_pid.sus_2026_pn_mtr.pdf,,NAMA_KAMU,NAMA_TEMAN,pending
