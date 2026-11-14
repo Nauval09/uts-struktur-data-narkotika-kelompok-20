@@ -114,7 +114,7 @@ public class MainGUI extends JFrame {
         };
 
         table = new JTable(tableModel);
-        table.setRowHeight(28);
+        table.setRowHeight(36); // Baris lebih longgar dan nyaman dibaca
         table.setFont(new Font("SansSerif", Font.PLAIN, 12));
         table.setBackground(BG_PANEL);
         table.setForeground(TEXT_LIGHT);
@@ -127,6 +127,44 @@ public class MainGUI extends JFrame {
         table.getTableHeader().setBackground(new Color(51, 65, 85));
         table.getTableHeader().setForeground(TEXT_LIGHT);
 
+        // 1. Definisikan semua renderer di paling atas
+        DefaultTableCellRenderer centerRenderer = new DefaultTableCellRenderer() {
+            @Override
+            public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+                Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
+                setHorizontalAlignment(JLabel.CENTER);
+                setForeground(isSelected ? Color.WHITE : TEXT_LIGHT);
+                setBackground(isSelected ? table.getSelectionBackground() : BG_PANEL);
+                setBorder(BorderFactory.createEmptyBorder(0, 8, 0, 8));
+                return c;
+            }
+        };
+
+        DefaultTableCellRenderer rightRenderer = new DefaultTableCellRenderer() {
+            @Override
+            public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+                Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
+                setHorizontalAlignment(JLabel.RIGHT);
+                setForeground(isSelected ? Color.WHITE : TEXT_LIGHT);
+                setBackground(isSelected ? table.getSelectionBackground() : BG_PANEL);
+                setBorder(BorderFactory.createEmptyBorder(0, 8, 0, 8));
+                return c;
+            }
+        };
+
+        DefaultTableCellRenderer defaultRenderer = new DefaultTableCellRenderer() {
+            @Override
+            public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+                Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
+                setHorizontalAlignment(JLabel.LEFT);
+                setForeground(isSelected ? Color.WHITE : TEXT_LIGHT);
+                setBackground(isSelected ? table.getSelectionBackground() : BG_PANEL);
+                setBorder(BorderFactory.createEmptyBorder(0, 8, 0, 8));
+                return c;
+            }
+        };
+
+        // 2. Atur lebar kolom dan daftarkan renderer di bawahnya
         TableColumnModel colModel = table.getColumnModel();
         colModel.getColumn(0).setPreferredWidth(75);
         colModel.getColumn(1).setPreferredWidth(185);
@@ -137,27 +175,15 @@ public class MainGUI extends JFrame {
         colModel.getColumn(6).setPreferredWidth(80);
         colModel.getColumn(7).setPreferredWidth(115);
 
-        DefaultTableCellRenderer centerRenderer = new DefaultTableCellRenderer();
-        centerRenderer.setHorizontalAlignment(JLabel.CENTER);
-        centerRenderer.setForeground(TEXT_LIGHT);
-        centerRenderer.setBackground(BG_PANEL);
-        colModel.getColumn(0).setCellRenderer(centerRenderer);
-        colModel.getColumn(2).setCellRenderer(centerRenderer);
-        colModel.getColumn(6).setCellRenderer(centerRenderer);
-
-        DefaultTableCellRenderer rightRenderer = new DefaultTableCellRenderer();
-        rightRenderer.setHorizontalAlignment(JLabel.RIGHT);
-        rightRenderer.setForeground(TEXT_LIGHT);
-        rightRenderer.setBackground(BG_PANEL);
-        colModel.getColumn(4).setCellRenderer(rightRenderer);
-        colModel.getColumn(7).setCellRenderer(rightRenderer);
-
-        DefaultTableCellRenderer defaultRenderer = new DefaultTableCellRenderer();
-        defaultRenderer.setForeground(TEXT_LIGHT);
-        defaultRenderer.setBackground(BG_PANEL);
-        colModel.getColumn(1).setCellRenderer(defaultRenderer);
-        colModel.getColumn(3).setCellRenderer(defaultRenderer);
-        colModel.getColumn(5).setCellRenderer(defaultRenderer);
+        // Mendaftarkan renderer dan posisi teks kolom
+        colModel.getColumn(0).setCellRenderer(centerRenderer); // Case ID
+        colModel.getColumn(1).setCellRenderer(defaultRenderer); // No Perkara
+        colModel.getColumn(2).setCellRenderer(centerRenderer); // Terdakwa
+        colModel.getColumn(3).setCellRenderer(defaultRenderer); // Jenis Narkotika
+        colModel.getColumn(4).setCellRenderer(centerRenderer); // Berat (gr) - di tengah
+        colModel.getColumn(5).setCellRenderer(defaultRenderer); // Pasal Terbukti
+        colModel.getColumn(6).setCellRenderer(centerRenderer); // Vonis (bln) - di tengah
+        colModel.getColumn(7).setCellRenderer(rightRenderer);   // Denda (Rp) - di kanan
 
         JScrollPane scrollPane = new JScrollPane(table);
         scrollPane.getViewport().setBackground(BG_PANEL);
@@ -180,8 +206,24 @@ public class MainGUI extends JFrame {
 
         // --- EVENT LISTENERS ---
         btnRefresh.addActionListener(e -> {
-            refreshTable(service.getDaftarPutusan());
-            statusLabel.setText(" Menampilkan seluruh data (" + service.getDaftarPutusan().size() + " record)");
+            // Ambil data, lalu urutkan kembali berdasarkan Case ID (PUT-001 s.d. PUT-050)
+            DynamicArray<Putusan> list = service.getDaftarPutusan();
+            
+            // Sorting berdasarkan Case ID secara Ascending
+            int n = list.size();
+            for (int i = 0; i < n - 1; i++) {
+                for (int j = 0; j < n - i - 1; j++) {
+                    Putusan p1 = list.get(j);
+                    Putusan p2 = list.get(j + 1);
+                    if (p1.getCaseId().compareToIgnoreCase(p2.getCaseId()) > 0) {
+                        list.set(j, p2);
+                        list.set(j + 1, p1);
+                    }
+                }
+            }
+
+            refreshTable(list);
+            statusLabel.setText(" Menampilkan seluruh data berurutan (" + list.size() + " record)");
         });
 
         btnCari.addActionListener(e -> aksiCari());
@@ -216,12 +258,27 @@ public class MainGUI extends JFrame {
                         service.tambahPutusan(p);
                     }
                 }
-                return;
             } catch (Exception ex) {
                 System.err.println("Gagal memuat backup, menggunakan master CSV.");
+                service.imporCsv(MASTER_CSV);
+            }
+        } else {
+            service.imporCsv(MASTER_CSV);
+        }
+
+        // OTOMATIS URUTKAN BERDASARKAN CASE ID (PUT-001 s.d. PUT-050) SAAT PERTAMA KALI DIBUKA
+        DynamicArray<Putusan> list = service.getDaftarPutusan();
+        int n = list.size();
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                Putusan p1 = list.get(j);
+                Putusan p2 = list.get(j + 1);
+                if (p1.getCaseId().compareToIgnoreCase(p2.getCaseId()) > 0) {
+                    list.set(j, p2);
+                    list.set(j + 1, p1);
+                }
             }
         }
-        service.imporCsv(MASTER_CSV);
     }
 
     private void simpanKeBackup() {
@@ -290,9 +347,66 @@ public class MainGUI extends JFrame {
     }
 
     private void aksiCari() {
-        String keyword = JOptionPane.showInputDialog(this, "Masukkan Case ID atau Nomor Perkara:");
-        if (keyword == null || keyword.trim().isEmpty()) return;
+        JDialog dialog = new JDialog(this, "Pencarian Data Perkara", true);
+        dialog.setSize(420, 210);
+        dialog.setLocationRelativeTo(this);
+        dialog.setLayout(new BorderLayout());
 
+        JPanel formPanel = new JPanel(new GridLayout(2, 1, 10, 10));
+        formPanel.setBorder(new EmptyBorder(20, 20, 10, 20));
+        formPanel.setBackground(BG_PANEL);
+
+        JLabel lblInstruksi = new JLabel("Masukkan Case ID atau Nomor Perkara:");
+        lblInstruksi.setForeground(TEXT_LIGHT);
+        lblInstruksi.setFont(new Font("SansSerif", Font.BOLD, 12));
+
+        JTextField fieldKeyword = new JTextField();
+        fieldKeyword.setBackground(BG_DARK);
+        fieldKeyword.setForeground(Color.WHITE);
+        fieldKeyword.setCaretColor(Color.WHITE);
+        fieldKeyword.setFont(new Font("SansSerif", Font.PLAIN, 13));
+
+        formPanel.add(lblInstruksi);
+        formPanel.add(fieldKeyword);
+
+        JPanel btnPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 10, 10));
+        btnPanel.setBackground(BG_DARK);
+
+        JButton btnCariProses = new JButton("Cari");
+        btnCariProses.setBackground(ACCENT_BLUE);
+        btnCariProses.setForeground(Color.WHITE);
+        btnCariProses.setFocusPainted(false);
+
+        JButton btnBatal = new JButton("Batal");
+        btnBatal.setBackground(new Color(71, 85, 105));
+        btnBatal.setForeground(Color.WHITE);
+        btnBatal.setFocusPainted(false);
+
+        btnCariProses.addActionListener(e -> {
+            String keyword = fieldKeyword.getText().trim();
+            if (keyword.isEmpty()) {
+                JOptionPane.showMessageDialog(dialog, "Keyword pencarian tidak boleh kosong!", "Peringatan", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+            dialog.dispose();
+            eksekusiCari(keyword);
+        });
+
+        btnBatal.addActionListener(e -> dialog.dispose());
+        
+        // Agar menekan tombol Enter di keyboard langsung memicu pencarian
+        fieldKeyword.addActionListener(e -> btnCariProses.doClick());
+
+        btnPanel.add(btnCariProses);
+        btnPanel.add(btnBatal);
+
+        dialog.add(formPanel, BorderLayout.CENTER);
+        dialog.add(btnPanel, BorderLayout.SOUTH);
+        dialog.setVisible(true);
+    }
+
+    // Helper untuk mengeksekusi logika pencarian data
+    private void eksekusiCari(String keyword) {
         DynamicArray<Putusan> list = service.getDaftarPutusan();
         int steps = 0;
         Putusan found = null;
@@ -301,7 +415,7 @@ public class MainGUI extends JFrame {
         for (int i = 0; i < list.size(); i++) {
             steps++;
             Putusan p = list.get(i);
-            if (p.getCaseId().equalsIgnoreCase(keyword.trim()) || p.getNomorPerkara().equalsIgnoreCase(keyword.trim())) {
+            if (p.getCaseId().equalsIgnoreCase(keyword) || p.getNomorPerkara().equalsIgnoreCase(keyword)) {
                 found = p;
                 foundIdx = i;
                 break;
@@ -574,22 +688,34 @@ public class MainGUI extends JFrame {
     }
 
     private void eksekusiUrut(int pilih) {
-        DynamicArray<Putusan> list = service.getDaftarPutusan();
-        int n = list.size();
+        // Ambil data asli dari service
+        DynamicArray<Putusan> listAsli = service.getDaftarPutusan();
+        
+        // Buat salinan (copy) supaya data asli di memori & backup tidak ikut teracak urutannya
+        DynamicArray<Putusan> listTemp = new DynamicArray<>();
+        for (int i = 0; i < listAsli.size(); i++) {
+            listTemp.add(listAsli.get(i));
+        }
+
+        // Lakukan sorting hanya pada salinan data (listTemp)
+        int n = listTemp.size();
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
-                Putusan p1 = list.get(j);
-                Putusan p2 = list.get(j + 1);
+                Putusan p1 = listTemp.get(j);
+                Putusan p2 = listTemp.get(j + 1);
                 boolean tukar = (pilih == 0) ? (p1.getVonisBulan() > p2.getVonisBulan()) : (p1.getVonisBulan() < p2.getVonisBulan());
                 if (tukar) {
-                    list.set(j, p2);
-                    list.set(j + 1, p1);
+                    listTemp.set(j, p2);
+                    listTemp.set(j + 1, p1);
                 }
             }
         }
-        simpanKeBackup();
+        
+        // TIDAK ADA pemanggilan simpanKeBackup() di sini, sehingga urutan master/backup tetap aman!
         service.getRiwayatAudit().push("GUI URUT: Vonis " + (pilih == 0 ? "Ascending" : "Descending"));
-        refreshTable(list);
+        
+        // Tampilkan hasil urut ke tabel (hanya bersifat tampilan sementara)
+        refreshTable(listTemp);
     }
 
     private void aksiTambah() {
@@ -809,7 +935,10 @@ public class MainGUI extends JFrame {
     private void aksiAgregasi() {
         DynamicArray<Putusan> list = service.getDaftarPutusan();
         int total = list.size();
-        if (total == 0) return;
+        if (total == 0) {
+            JOptionPane.showMessageDialog(this, "Tidak ada data untuk diagregasi.", "Informasi", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
 
         long totalVonis = 0, totalDenda = 0;
         double totalBerat = 0;
@@ -819,20 +948,56 @@ public class MainGUI extends JFrame {
             totalBerat += list.get(i).getBeratBarangBuktiGram();
         }
 
-        String msg = String.format(
-                "Total Perkara : %d kasus\nRata-rata Vonis : %.2f bulan\nRata-rata Berat BB : %.3f gram\nTotal Akumulasi Denda : Rp %,d",
-                total, (double) totalVonis / total, totalBerat / total, totalDenda
-        );
-        JOptionPane.showMessageDialog(this, msg, "Statistik Agregasi Putusan", JOptionPane.INFORMATION_MESSAGE);
-    }
+        double avgVonis = (double) totalVonis / total;
+        double avgBerat = totalBerat / total;
 
+        // Membuat Custom JDialog untuk Statistik Agregasi
+        JDialog dialog = new JDialog(this, "Statistik Agregasi Putusan", true);
+        dialog.setSize(440, 260);
+        dialog.setLocationRelativeTo(this);
+        dialog.setLayout(new BorderLayout());
+
+        JPanel panelUtama = new JPanel(new GridLayout(4, 1, 8, 8));
+        panelUtama.setBorder(new EmptyBorder(20, 25, 15, 25));
+        panelUtama.setBackground(BG_PANEL);
+
+        JLabel lbl1 = new JLabel("📊  Total Perkara  :  " + total + " kasus");
+        JLabel lbl2 = new JLabel("📈  Rata-rata Vonis  :  " + String.format("%.2f", avgVonis) + " bulan");
+        JLabel lbl3 = new JLabel("⚖️  Rata-rata Berat BB  :  " + String.format("%.3f", avgBerat) + " gram");
+        JLabel lbl4 = new JLabel("💰  Total Akumulasi Denda  :  Rp " + String.format("%,d", totalDenda));
+
+        JLabel[] labels = {lbl1, lbl2, lbl3, lbl4};
+        for (JLabel lbl : labels) {
+            lbl.setForeground(TEXT_LIGHT);
+            lbl.setFont(new Font("SansSerif", Font.BOLD, 13));
+            panelUtama.add(lbl);
+        }
+
+        JPanel btnPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 10));
+        btnPanel.setBackground(BG_DARK);
+
+        JButton btnTutup = new JButton("Tutup");
+        btnTutup.setBackground(ACCENT_BLUE);
+        btnTutup.setForeground(Color.WHITE);
+        btnTutup.setFocusPainted(false);
+        btnTutup.setFont(new Font("SansSerif", Font.BOLD, 12));
+        btnTutup.setPreferredSize(new Dimension(100, 32));
+        btnTutup.addActionListener(e -> dialog.dispose());
+
+        btnPanel.add(btnTutup);
+
+        dialog.add(panelUtama, BorderLayout.CENTER);
+        dialog.add(btnPanel, BorderLayout.SOUTH);
+        dialog.setVisible(true);
+    }
     private void aksiAudit() {
         CustomStack<String> stack = service.getRiwayatAudit();
         if (stack.isEmpty()) {
-            JOptionPane.showMessageDialog(this, "Riwayat audit masih kosong.");
+            JOptionPane.showMessageDialog(this, "Riwayat audit masih kosong.", "Informasi", JOptionPane.WARNING_MESSAGE);
             return;
         }
 
+        // Membentuk string riwayat dari CustomStack (LIFO)
         StringBuilder sb = new StringBuilder("Riwayat Operasi (LIFO - Terbaru di Atas):\n\n");
         CustomStack<String> temp = new CustomStack<>(stack.size());
         int no = 1;
@@ -845,16 +1010,111 @@ public class MainGUI extends JFrame {
             stack.push(temp.pop());
         }
 
-        JTextArea textArea = new JTextArea(sb.toString(), 15, 45);
+        // Membuat Custom JDialog untuk Riwayat Audit
+        JDialog dialog = new JDialog(this, "Riwayat Audit (CustomStack)", true);
+        dialog.setSize(520, 380);
+        dialog.setLocationRelativeTo(this);
+        dialog.setLayout(new BorderLayout());
+
+        JPanel formPanel = new JPanel(new BorderLayout());
+        formPanel.setBorder(new EmptyBorder(15, 15, 10, 15));
+        formPanel.setBackground(BG_PANEL);
+
+        JTextArea textArea = new JTextArea(sb.toString());
         textArea.setEditable(false);
-        JOptionPane.showMessageDialog(this, new JScrollPane(textArea), "Riwayat Audit (CustomStack)", JOptionPane.INFORMATION_MESSAGE);
+        textArea.setFont(new Font("Monospaced", Font.PLAIN, 12));
+        textArea.setBackground(BG_DARK);
+        textArea.setForeground(TEXT_LIGHT);
+        textArea.setCaretColor(Color.WHITE);
+        textArea.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
+
+        JScrollPane scrollPane = new JScrollPane(textArea);
+        scrollPane.getViewport().setBackground(BG_DARK);
+        scrollPane.setBorder(BorderFactory.createLineBorder(new Color(71, 85, 105)));
+
+        formPanel.add(scrollPane, BorderLayout.CENTER);
+
+        // Panel Tombol di Bawah
+        JPanel btnPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 10));
+        btnPanel.setBackground(BG_DARK);
+
+        JButton btnTutup = new JButton("Tutup");
+        btnTutup.setBackground(ACCENT_BLUE);
+        btnTutup.setForeground(Color.WHITE);
+        btnTutup.setFocusPainted(false);
+        btnTutup.setFont(new Font("SansSerif", Font.BOLD, 12));
+        btnTutup.setPreferredSize(new Dimension(100, 32));
+        btnTutup.addActionListener(e -> dialog.dispose());
+
+        btnPanel.add(btnTutup);
+
+        dialog.add(formPanel, BorderLayout.CENTER);
+        dialog.add(btnPanel, BorderLayout.SOUTH);
+        dialog.setVisible(true);
     }
 
     private void aksiEkspor() {
-        String filename = JOptionPane.showInputDialog(this, "Nama file ekspor di folder data/:", "laporan-gui.csv");
-        if (filename == null || filename.trim().isEmpty()) return;
+        JDialog dialog = new JDialog(this, "Ekspor Data ke CSV", true);
+        dialog.setSize(440, 210);
+        dialog.setLocationRelativeTo(this);
+        dialog.setLayout(new BorderLayout());
 
-        String path = "data/" + filename.trim();
+        JPanel formPanel = new JPanel(new GridLayout(2, 1, 10, 10));
+        formPanel.setBorder(new EmptyBorder(20, 20, 10, 20));
+        formPanel.setBackground(BG_PANEL);
+
+        JLabel lblInstruksi = new JLabel("Nama file ekspor di folder data/:");
+        lblInstruksi.setForeground(TEXT_LIGHT);
+        lblInstruksi.setFont(new Font("SansSerif", Font.BOLD, 12));
+
+        JTextField fieldFilename = new JTextField("laporan-gui.csv");
+        fieldFilename.setBackground(BG_DARK);
+        fieldFilename.setForeground(Color.WHITE);
+        fieldFilename.setCaretColor(Color.WHITE);
+        fieldFilename.setFont(new Font("SansSerif", Font.PLAIN, 13));
+
+        formPanel.add(lblInstruksi);
+        formPanel.add(fieldFilename);
+
+        JPanel btnPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 10, 10));
+        btnPanel.setBackground(BG_DARK);
+
+        JButton btnEksporProses = new JButton("Ekspor");
+        btnEksporProses.setBackground(ACCENT_BLUE);
+        btnEksporProses.setForeground(Color.WHITE);
+        btnEksporProses.setFocusPainted(false);
+
+        JButton btnBatal = new JButton("Batal");
+        btnBatal.setBackground(new Color(71, 85, 105));
+        btnBatal.setForeground(Color.WHITE);
+        btnBatal.setFocusPainted(false);
+
+        btnEksporProses.addActionListener(e -> {
+            String filename = fieldFilename.getText().trim();
+            if (filename.isEmpty()) {
+                JOptionPane.showMessageDialog(dialog, "Nama file tidak boleh kosong!", "Peringatan", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+            dialog.dispose();
+            eksekusiEkspor(filename);
+        });
+
+        btnBatal.addActionListener(e -> dialog.dispose());
+        
+        // Menekan Enter langsung memproses ekspor
+        fieldFilename.addActionListener(e -> btnEksporProses.doClick());
+
+        btnPanel.add(btnEksporProses);
+        btnPanel.add(btnBatal);
+
+        dialog.add(formPanel, BorderLayout.CENTER);
+        dialog.add(btnPanel, BorderLayout.SOUTH);
+        dialog.setVisible(true);
+    }
+
+    // Helper untuk mengeksekusi logika penyimpanan file CSV
+    private void eksekusiEkspor(String filename) {
+        String path = "data/" + filename;
         try (PrintWriter pw = new PrintWriter(new File(path))) {
             pw.println("CaseId,NomorPerkara,Pengadilan,JenisNarkotika,BeratBarangBuktiGram,PasalTerbukti,VonisBulan,DendaRupiah");
             DynamicArray<Putusan> list = service.getDaftarPutusan();
