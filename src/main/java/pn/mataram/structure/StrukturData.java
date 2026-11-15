@@ -1,4 +1,4 @@
-package pm.mataram.structure;
+package pn.mataram.structure;
 
 public interface StrukturData<T> {
     void add(T value);

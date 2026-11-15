@@ -1,8 +1,8 @@
-package pm.mataram.service;
+package pn.mataram.service;
 
-import pm.mataram.model.Putusan;
-import pm.mataram.structure.CustomStack;
-import pm.mataram.structure.DynamicArray;
+import pn.mataram.model.Putusan;
+import pn.mataram.structure.CustomStack;
+import pn.mataram.structure.DynamicArray;
 
 import java.io.*;
 import java.time.LocalDate;
@@ -10,6 +10,12 @@ import java.time.LocalDate;
 public class PutusanService {
     private DynamicArray<Putusan> daftarPutusan = new DynamicArray<>();
     private CustomStack<String> riwayatAudit = new CustomStack<>(50);
+
+public static DynamicArray<Putusan> loadData(String filePath) {
+    PutusanService ps = new PutusanService();
+    ps.imporCsv(filePath);
+    return ps.getDaftarPutusan();
+}
 
     public void imporCsv(String filePath) {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
