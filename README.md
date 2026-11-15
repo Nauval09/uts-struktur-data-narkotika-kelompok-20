@@ -11,7 +11,7 @@ Mata kuliah Struktur Data, UMM, Semester Ganjil 2026/2027.
 | Nama | NIM | GitHub |
 |---|---|---|
 | <NAMA LENGKAP> | <NIM> | [@Nauval09](https://github.com/Nauval09) |
-| KENDRA FREDLINO RAHADI | 202510370110114 | kendraicikiwir |
+| KENDRA FREDLINO RAHADI | 202510370110114 | [@kendraicikiwir](https://github.com/kendraicikiwir) |
 
 ## Struktur Data yang Dipilih
 
