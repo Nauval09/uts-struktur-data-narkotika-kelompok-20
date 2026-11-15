@@ -22,7 +22,7 @@ Kelompok 20. Bukti diambil dari riwayat git, Issue, Pull Request, dan review di 
 - <ISI setelah dikerjakan: tautan commit dan PR>
 
 **Pull Request dibuat:** <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/4#issue-6384461665>, <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/6#issue-6405935367>, <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/5#issue-6405912132>
-**Review diberikan (dengan komentar spesifik):** <TAUTAN REVIEW 1>, <TAUTAN REVIEW 2>
+**Review diberikan (dengan komentar spesifik):** <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/6#issuecomment-6896994665>, <TAUTAN REVIEW 2>
 
 ### <NAMA LENGKAP> (`kendraicikiwir`)
 
