@@ -1,9 +1,9 @@
-package pm.mataram;
+package pn.mataram;
 
-import pm.mataram.model.Putusan;
-import pm.mataram.service.PutusanService;
-import pm.mataram.structure.CustomStack;
-import pm.mataram.structure.DynamicArray;
+import pn.mataram.model.Putusan;
+import pn.mataram.service.PutusanService;
+import pn.mataram.structure.CustomStack;
+import pn.mataram.structure.DynamicArray;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;

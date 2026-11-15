@@ -1,4 +1,4 @@
-package pm.mataram.structure;
+package pn.mataram.structure;
 
 public class CustomStack<T> {
     private Object[] elements;

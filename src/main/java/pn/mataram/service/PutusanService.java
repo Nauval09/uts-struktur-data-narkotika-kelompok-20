@@ -1,8 +1,8 @@
-package pm.mataram.service;
+package pn.mataram.service;
 
-import pm.mataram.model.Putusan;
-import pm.mataram.structure.CustomStack;
-import pm.mataram.structure.DynamicArray;
+import pn.mataram.model.Putusan;
+import pn.mataram.structure.CustomStack;
+import pn.mataram.structure.DynamicArray;
 
 import java.io.*;
 import java.time.LocalDate;

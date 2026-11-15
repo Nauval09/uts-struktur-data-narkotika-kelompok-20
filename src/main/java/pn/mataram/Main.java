@@ -1,10 +1,10 @@
-package pm.mataram;
+package pn.mataram;
 
 import java.time.LocalDate;
 import java.util.Scanner;
-import pm.mataram.model.Putusan;
-import pm.mataram.service.PutusanService;
-import pm.mataram.structure.DynamicArray;
+import pn.mataram.model.Putusan;
+import pn.mataram.service.PutusanService;
+import pn.mataram.structure.DynamicArray;
 
 public class Main {
     public static void main(String[] args) {
@@ -323,7 +323,7 @@ public class Main {
                         // Pastikan PutusanService Anda memiliki method getter untuk riwayatAudit
                         // public CustomStack<String> getRiwayatAudit() { return riwayatAudit; }
                         
-                        pm.mataram.structure.CustomStack<String> auditStack = service.getRiwayatAudit();
+                        pn.mataram.structure.CustomStack<String> auditStack = service.getRiwayatAudit();
                         
                         if (auditStack.isEmpty()) {
                             System.out.println("Belum ada riwayat operasi yang tercatat di dalam Stack.");
@@ -333,7 +333,7 @@ public class Main {
                             // Karena kita ingin menampilkan dari yang terbaru ke terlama tanpa merusak stack asli,
                             // kita bisa membuat stack sementara (atau memanfaatkan mekanisme salin)
                             // Cara aman: kita pop satu-satu ke stack sementara, cetak, lalu kembalikan.
-                            pm.mataram.structure.CustomStack<String> tempStack = new pm.mataram.structure.CustomStack<>(auditStack.size());
+                            pn.mataram.structure.CustomStack<String> tempStack = new pn.mataram.structure.CustomStack<>(auditStack.size());
                             int nomor = 1;
                             
                             while (!auditStack.isEmpty()) {

@@ -1,4 +1,4 @@
-package pm.mataram.model;
+package pn.mataram.model;
 
 import java.time.LocalDate;
 

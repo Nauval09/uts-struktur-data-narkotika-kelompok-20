@@ -1,4 +1,4 @@
-package pm.mataram.structure;
+package pn.mataram.structure;
 
 public class DynamicArray<T> implements StrukturData<T> {
     private Object[] data;
