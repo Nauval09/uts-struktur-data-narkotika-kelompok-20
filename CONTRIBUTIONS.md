@@ -21,7 +21,7 @@ Kelompok 20. Bukti diambil dari riwayat git, Issue, Pull Request, dan review di 
 **Implementasi / Pengujian / Dokumentasi**
 - <ISI setelah dikerjakan: tautan commit dan PR>
 
-**Pull Request dibuat:** <TAUTAN PR 1>, <TAUTAN PR 2>, <TAUTAN PR 3>
+**Pull Request dibuat:** <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/4#issue-6384461665>, <TAUTAN PR 2>, <TAUTAN PR 3>
 **Review diberikan (dengan komentar spesifik):** <TAUTAN REVIEW 1>, <TAUTAN REVIEW 2>
 
 ### <NAMA LENGKAP> (`kendraicikiwir`)
