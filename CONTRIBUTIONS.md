@@ -21,7 +21,7 @@ Kelompok 20. Bukti diambil dari riwayat git, Issue, Pull Request, dan review di 
 **Implementasi / Pengujian / Dokumentasi**
 - <ISI setelah dikerjakan: tautan commit dan PR>
 
-**Pull Request dibuat:** <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/4#issue-6384461665>, <TAUTAN PR 2>, <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/5#issue-6405912132>
+**Pull Request dibuat:** <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/4#issue-6384461665>, <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/6#issue-6405935367>, <https://github.com/Nauval09/uts-struktur-data-narkotika-kelompok-20/pull/5#issue-6405912132>
 **Review diberikan (dengan komentar spesifik):** <TAUTAN REVIEW 1>, <TAUTAN REVIEW 2>
 
 ### <NAMA LENGKAP> (`kendraicikiwir`)
@@ -37,9 +37,4 @@ Kelompok 20. Bukti diambil dari riwayat git, Issue, Pull Request, dan review di 
 - GUI (`MainGUI.java`) dan pembaruan kode di `src`: `8941170`
 - `.gitignore` dan pembersihan folder `target`: `7366a4d`
 
-**Pengujian / Dokumentasi**
-- <ISI setelah dikerjakan: tautan commit dan PR>
 
-**Pull Request dibuat:** <TAUTAN PR 1>, <TAUTAN PR 2>, <TAUTAN PR 3>
-**Review diberikan (dengan komentar spesifik):** <TAUTAN REVIEW 1>, <TAUTAN REVIEW 2>
-**Pull Request #3** (`feat/struktur-data` ke `main`) di-merge oleh `kendraicikiwir`.
