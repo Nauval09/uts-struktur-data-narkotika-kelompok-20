@@ -4,7 +4,7 @@ Kelompok 20. Bukti diambil dari riwayat git, Issue, Pull Request, dan review di 
 
 | Nama | NIM | Peran & Kontribusi | Issue / PR |
 |---|---|---|---|
-| <NAMA LENGKAP> (`Nauval09`) | <NIM> | Ekstraksi data putusan 1-25 ke CSV; pengisian dan review silang `docs/data-provenance.csv`; <TAMBAHKAN setelah selesai: unit test, ADR, dll.> | <TAUTAN ISSUE / PR> |
+| Muhammad Nauval Adiaulhaq (`Nauval09`) | 202510370110142 | Ekstraksi data putusan 1-25 ke CSV; pengisian dan review silang `docs/data-provenance.csv`; <TAMBAHKAN setelah selesai: unit test, ADR, dll.> | <TAUTAN ISSUE / PR> |
 | KENDRA FREDLINO RAHADI (`kendraicikiwir`) | 202510370110114 | Ekstraksi data putusan 26-50 ke CSV; pengisian dan review silang `docs/data-provenance.csv`; model, service, dan struktur data kustom; CLI dan GUI; <TAMBAHKAN setelah selesai: unit test, ADR, dll.> | <TAUTAN ISSUE / PR> |
 
 ## Rincian per anggota
